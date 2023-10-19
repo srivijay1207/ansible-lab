@@ -1,0 +1,9 @@
+- name: install and run nginxx
+  hosts: mongodb
+  become: true
+  tasks:
+  - name: Install the latest version of Apache
+    ansible.builtin.yum:
+     name: nginx
+     state: installed
+ 
