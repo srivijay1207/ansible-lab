@@ -4,7 +4,7 @@
     a: 4
     b: 5
   tasks:
-  - name: "addition"
+  - name: addition
     ansible.builtin.debug: 
     msg:
       - " the sum of 2 numbers: {{a+b}} "
