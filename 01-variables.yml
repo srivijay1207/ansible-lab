@@ -7,5 +7,5 @@
   - name: multiplication
     ansible.builtin.debug: 
       msg:
-      - " the sum of 2 numbers: {{a*b}} "
+      - " the result is : {{a*b}} "
      
