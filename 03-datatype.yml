@@ -3,17 +3,16 @@
   vars:
   - AGE: 37 #Number
   - NAME: "srivijay" #String
-  - isMenHero: true #boolean
+  - isHero: true #boolean
   - Skills: #list
     - DevOps
+      - Git,Jenkins,Docker,K8s,nexus,Sonarkube
     - AWS
-    - Docker
-    - ansible
-      - Ansible Tower
+      - IAM,EC2,USERDATA,ASG,ALB,ROUTE-53,S3,
+    
   - EXPERIENCE: #map
       DevOps: 5
       AWS: 5
-      Docker: 4
   tasks:
   - name: print number variable
     ansible.builtin.debug:
@@ -23,7 +22,7 @@
       msg: "{{NAME}}"
   - name: print Boolean variable
     ansible.builtin.debug:
-      msg: "{{isMenHero}}"
+      msg: "{{isHero}}"
   - name: print List variable
     ansible.builtin.debug:
       msg: "{{Skills}}"
