@@ -23,7 +23,7 @@
       msg: "{{NAME}}"
   - name: print Boolean variable
     ansible.builtin.debug:
-      msg: "{{isDevOps}}"
+      msg: "{{isMenHero}}"
   - name: print List variable
     ansible.builtin.debug:
       msg: "{{Skills}}"
