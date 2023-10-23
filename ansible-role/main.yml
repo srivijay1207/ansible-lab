@@ -1,4 +1,4 @@
-- name: installing roboshop
+- name: installing roboshop project
   hosts: catalogue
   become: yes
   roles:
