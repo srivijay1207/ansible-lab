@@ -1,5 +1,5 @@
 - name: installing roboshop project
-  hosts: mongodb-centos
+  hosts: mongodb
   become: yes
   roles:
-  - mongodb-centos
+  - mongodb
