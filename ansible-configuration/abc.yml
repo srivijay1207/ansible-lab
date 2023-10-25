@@ -1,0 +1,7 @@
+- name: ansible configuration Demo
+  hosts: centos
+  tasks: 
+  - name: print env
+    ansible.builtin.debug:
+      msg: echo "Hi i am vijay" > /tmp/vijay.txt
+      
